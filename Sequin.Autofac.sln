@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequin.Autofac", "src\Sequin.Autofac\Sequin.Autofac.csproj", "{5949C7DE-61A6-4080-B818-6C565478D92C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{0AE53FDC-B45B-44D5-BC93-515A94983DF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Web.Autofac", "samples\Sample.Web.Autofac\Sample.Web.Autofac.csproj", "{7F6674DE-65AB-4512-A638-4D14C9E807E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{5949C7DE-61A6-4080-B818-6C565478D92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5949C7DE-61A6-4080-B818-6C565478D92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5949C7DE-61A6-4080-B818-6C565478D92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6674DE-65AB-4512-A638-4D14C9E807E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6674DE-65AB-4512-A638-4D14C9E807E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6674DE-65AB-4512-A638-4D14C9E807E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6674DE-65AB-4512-A638-4D14C9E807E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F6674DE-65AB-4512-A638-4D14C9E807E3} = {0AE53FDC-B45B-44D5-BC93-515A94983DF5}
 	EndGlobalSection
 EndGlobal
