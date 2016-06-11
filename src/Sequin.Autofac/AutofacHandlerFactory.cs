@@ -2,9 +2,8 @@
 {
     using System.Collections.Generic;
     using System.Linq;
-    using Core;
-    using Core.Infrastructure;
     using global::Autofac;
+    using Infrastructure;
 
     public class AutofacHandlerFactory : IHandlerFactory
     {
