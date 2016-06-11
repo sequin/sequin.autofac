@@ -1,4 +1,4 @@
-﻿namespace Sample.Web.Autofac.Commands
+﻿namespace Sequin.Autofac.Sample.Commands
 {
     public class DummyCommand
     {
